@@ -23,13 +23,13 @@ Before getting started, ensure you have the following installed:
 1. **Clone the Repository**: Begin by cloning the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/gemini-ai-content-generator.git
+   https://github.com/cyber-bytezz/Gemini-AI-Content-Generator
    ```
 
 2. **Navigate to the Project Directory**: Move into the project directory:
 
    ```bash
-   cd gemini-ai-content-generator
+   Gemini-AI-Content-Generator
    ```
 
 3. **Set up Backend**
@@ -55,19 +55,32 @@ Before getting started, ensure you have the following installed:
 ## 🚀 Usage
 
 1. **Start the Backend Server**: Launch the backend server with automatic file watching and restarting enabled:
-
-   ```bash
-   cd backend
-   npm install -g nodemon   # Install nodemon globally if not installed already
-   nodemon app.js
-   ```
+    - Directory
+      ```bash
+      cd backend
+      ```
+   - Install Dependencies
+      ```bash
+       npm i
+      ```
+   - Run the Server
+      ```bash
+       node --watch app.js
+      ```
 
 2. **Start the Frontend Server**: Open a new terminal window, navigate to the project directory, and start the frontend server:
-
-   ```bash
-   cd ../frontend   # Assuming your frontend code is in a 'frontend' directory
-   npm start
-   ```
+    - Directory
+      ```bash
+      cd frontend
+      ```
+   - Install Dependencies
+      ```bash
+       npm i
+      ```
+   - Run the Server
+      ```bash
+       npn run dev
+      ```
 
 3. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to access the Gemini AI Content Generator.
 
