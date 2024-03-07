@@ -16,7 +16,7 @@ Gemini AI Content Generator is a sophisticated web application designed to harne
 Before getting started, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com/)
-- [Google Generative AI API Key](https://cloud.google.com/generate-ai/docs/getting-started)
+- [Google Generative AI API Key](https://ai.google.dev/)
 
 ## 📥 Installation
 
