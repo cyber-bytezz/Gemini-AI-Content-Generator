@@ -99,7 +99,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-For inquiries or feedback, please contact [Your Name](mailto:your-email@example.com).
+For inquiries or feedback, please contact [Aro](mailto:chandru2021007@gmail.com).
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/gemini-ai-content-generator.svg?style=social)](https://github.com/your-username/gemini-ai-content-generator/stargazers) [![GitHub forks](https://img.shields.io/github/forks/your-username/gemini-ai-content-generator.svg?style=social)](https://github.com/your-username/gemini-ai-content-generator/network)
-```
+[![GitHub stars](https://img.shields.io/github/stars/your-username/gemini-ai-content-generator.svg?style=social)](https://github.com/cyber-bytezz/Gemini-AI-Content-Generator) [![GitHub forks](https://img.shields.io/github/forks/your-username/gemini-ai-content-generator.svg?style=social)](https://github.com/cyber-bytezz/Gemini-AI-Content-Generator/network)
+
