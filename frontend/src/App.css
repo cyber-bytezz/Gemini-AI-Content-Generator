@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff; /* White text color */
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+h1:hover {
+  animation: rainbow 2s infinite; /* Apply rainbow effect on hover */
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; } /* Red */
+  14% { color: #ff7f00; } /* Orange */
+  28% { color: #ffff00; } /* Yellow */
+  42% { color: #00ff00; } /* Green */
+  57% { color: #0000ff; } /* Blue */
+  71% { color: #4b0082; } /* Indigo */
+  85% { color: #9400d3; } /* Violet */
+  100% { color: #ff0000; } /* Red */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #ccc; /* Light gray text color */
+}
+
+form {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ccc; /* Light gray text color */
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: #222; /* Dark gray input background */
+  color: #fff; /* White text color for input */
+}
+
+.button {
+  width: 100%;
+  background-color: #0070f3; /* Next.js blue color */
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade of Next.js blue */
+}
+
+.response {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #ccc; /* Light gray text color */
+  padding: 1rem;
+  background-color: #222; /* Dark gray background */
+  border: 1px solid #333; /* Darker border */
+  border-radius: 0.25rem;
+}
+
+/* Add animation for blinking effect */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.response p {
+  margin: 0; /* Remove default margin for paragraphs */
+  line-height: 1.5; /* Improve readability with adequate line height */
+  animation: blink 1s infinite; /* Apply blinking animation */
+}
+
+.response:hover p {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+
